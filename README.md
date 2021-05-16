@@ -1,6 +1,7 @@
 # ATR
 
 Based on the paper referenced from the [ATR paper](https://arxiv.org/pdf/2007.07690.pdf).
+> Built with Tensorflow GPU 1.14 and Python 3.6.
 
 ## Usage
 Executing `python atr` will first run the training of densenet121 to create frozen weights to then be used to train atr, which runs second and outputs a frozen model upon completion.
